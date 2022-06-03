@@ -125,7 +125,7 @@ public class BorderCheckTask implements Runnable {
             Config.logWarn("New position in world \"" + newLoc.getWorld().getName() + "\" at X: " + Config.coord.format(newLoc.getX()) + " Y: " + Config.coord.format(newLoc.getY()) + " Z: " + Config.coord.format(newLoc.getZ()));
 
         if (notify) {
-        	if(!Config.Message().isBlank()) {
+        	if(!Config.Message().isEmpty()) {
         		player.sendMessage(Config.Message());
         	}
         }          
