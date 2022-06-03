@@ -505,6 +505,7 @@ public class Config {
 
     public static void log(Level lvl, String text) {
         wbLog.log(lvl, text);
+        org.bukkit.Bukkit.getLogger().info(text);
     }
 
     public static void log(String text) {
