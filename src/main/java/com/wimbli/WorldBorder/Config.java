@@ -689,7 +689,4 @@ public class Config {
         if (logIt)
             logConfig("Configuration saved.");
     }
-
-    public static void setBorder(String worldName, double radiusX, double radiusZ, double x, double z) {
-    }
 }
